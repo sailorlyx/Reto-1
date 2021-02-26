@@ -1,16 +1,33 @@
 header {
+    height: 100px; 
     width: auto;
-    overflow: hidden;
-    background-color: paleturquoise;
+    background-color: whitesmoke;
     margin-bottom: auto;
 }
-header .logo {
-    color: palevioletred;
-    font-size: 50px;
-    line-height: 100px;
-    float: right;
+
+header .moonita {
+    max-height: 100%;
+    display: inline-block; 
 }
-header .nav {
-    float:left;
-    line-height: 200px;
+
+header nav {
+    display: inline-block;
+    height: 100%; 
+    vertical-align: top;
+}
+
+header nav a {
+    color:pink;
+    text-decoration: none;
+} 
+
+header nav a.selected {
+    text-decoration: underline;
+}
+
+header .nav-option {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 20px;
 }
