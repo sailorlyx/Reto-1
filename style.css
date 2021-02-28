@@ -45,6 +45,8 @@ header .nav-option {
     display: flex;
     flex-direction: row;
     min-height: 100px;
+    text-align: center;
+    
 }
 
 .li-card {
@@ -58,6 +60,7 @@ header .nav-option {
     background: pink;
     margin: 15px;
     color: white;
+
 }
 
 .li {
@@ -65,9 +68,7 @@ header .nav-option {
     border-radius: 100%;
     border-style: double;
     display: block;
-    margin: 5px auto;
-
-
+    margin: 10px auto;
 }
 
 .titulo {
@@ -76,5 +77,20 @@ header .nav-option {
     margin: auto 15px;
     height: 100%;
     text-shadow: 2px 2px grey;
+}
 
+h2 {
+    text-decoration: underline white;
+}
+
+p {
+    margin:15px;
+}
+
+.neko {
+    max-height: 200px;
+    border-radius: 100%;
+    border-style: double;
+    display: block;
+    margin: 10px auto;
 }
