@@ -81,10 +81,13 @@ header .nav-option {
 
 h2 {
     text-decoration: underline white;
+    text-align: center;
 }
 
 p {
     margin:15px;
+    text-align: center;
+    font-size: medium;
 }
 
 .neko {
@@ -93,4 +96,35 @@ p {
     border-style: double;
     display: block;
     margin: 10px auto;
+}
+
+.contacto {
+    max-height: 120px;
+    border-radius: 100%;
+    border-style: double;
+    display: block;
+    margin: 10px auto;
+}
+
+.formulario {
+    width: 200px;
+    text-align: center;
+    margin: 30px auto;
+    font-family: "Montserrat" , sans-serif;
+    border-style: dotted;
+
+}
+
+.formulario input, .formulario textarea {
+    font-family: "Montserrat" , sans-serif;
+    width: 200px;
+}
+
+.gatito {
+    position: absolute;
+    max-height: 150px;
+    border-radius: 100%;
+    border-style: double;
+    display: block;
+    margin-left: 200px;
 }
